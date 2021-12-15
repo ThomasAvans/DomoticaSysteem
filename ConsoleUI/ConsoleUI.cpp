@@ -2,9 +2,13 @@
 //
 
 #include <iostream>
-
+#include "database.h"
 int main()
 {
+    database db;
+    db.openDB();
+
+
     std::cout << "Hello World!\n";
 }
 

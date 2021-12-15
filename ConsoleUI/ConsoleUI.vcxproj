@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleUI.cpp" />
+    <ClCompile Include="database.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="database.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
