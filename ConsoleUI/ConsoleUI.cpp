@@ -6,10 +6,7 @@
 int main()
 {
     database db;
-    db.openDB();
-
-
-    std::cout << "Hello World!\n";
+    db.runDB();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
